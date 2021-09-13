@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--<meta http-equiv="x-ua-compatible" content="ie=edge">-->
+
+        <title>FestiAir</title>
+
+        <!-- Font Awesome -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300,300italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+        <!-- Material Design Bootstrap -->
+        <link href="css/materialize.css" rel="stylesheet">
+
+        <!-- Magnific-popup css -->
+        <link href="css/magnific-popup.css" rel="stylesheet">
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Material Design Bootstrap -->
+        <!--<link href="css/progressbar.css" rel="stylesheet">-->
+
+        <!-- Material Design Bootstrap -->
+        <link href="css/mdb.min.css" rel="stylesheet">
+
+
+
+        <!-- Your custom styles (optional) -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar-desktop">
+        <!--Navbar-->
+
+        <div class='preloader'><div class='loaded'>&nbsp;</div></div>
+
+        <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+            <!--Collapse button-->
+            <div class="container">
+                <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="fa fa-bars black-text"></i></a>
+
+                <!--Content for large and medium screens-->
+                <div class="navbar-desktop">
+                    <!--Navbar Brand-->
+                    <a class="navbar-brand" href="#home"><img src="img/logo.png" alt="" /></a>
+               
+                         <a class="float-right" href="en_index.html"><img src="img/UKflag.png" alt="drapeau anglais"></a>
+         
+                    </ul>
+                    <!--Links-->
+                    <ul class="nav navbar-nav pull-right hidden-md-down text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Accueil<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">A Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#agenda">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formulaire">Réservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acces">Accès</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <!-- Content for mobile devices-->
+                <div class="navbar-mobile">
+
+                    <ul class="side-nav" id="mobile-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Accueil<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">A Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#agenda">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formulaire">Réservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acces">Accès</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+
+
+        <div id="home" class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="img/homebenner.jpg" alt="Tour Eiffel"> <!-- random image -->
+                    <div class="caption center-align">
+                        <div class="single_home">                            
+                            <p>du 5 au 8 Août 2021 au Parc Monceau à Paris</p>
+                            <h1>Festival des Films de Plein Air</h1>
+                            <a href="#about" class="btn btn-primary m-t-3 waves-effect waves-red">En savoir plus !</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/homebenner2.jpg" alt="groupes de personnes dans un parc"> <!-- random image -->
+                    <div class="caption center-align">
+                        <div class="single_home">
+                            <h1>Accès libre et GRATUIT !</h1>
+                            <a href="#about" class="btn btn-primary m-t-3 waves-effect waves-red">En savoir plus !</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/homebenner3.jpg" alt="personnes regardant un film dans un parc"> <!-- random image -->
+                    <div class="caption center-align">
+                        <div class="single_home">
+                            <h1>Festival des Films de Plein Air</h1>
+                            <a href="#about" class="btn btn-primary m-t-3 waves-effect waves-red">En savoir plus !</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/homebenner4.jpg" alt="personnes regardant un film dans un parc"> <!-- random image -->
+                    <div class="caption center-align">
+                        <div class="single_home">
+                            <h1>Réservez vos places !</h1>
+                            <a href="#about" class="btn btn-primary m-t-3 waves-effect waves-red">En savoir plus !</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="main_about_area">
+                            <div class="head_title center m-y-3 wow fadeInUp"> <br>
+                                <h2>Le Festival des Films de Plein Air</h2>
+                                <p class="text-justify">Alors que le cinéma international et d'auteur peine à être diffusé en salle et que les clubs vidéo sont allés 
+                                    rejoindre les vestiges de l'histoire, l'Association "Les Films de Plein Air" a décidé de se mobiliser pour permettre 
+                                    au grand public de voir et revoir ces films au goût si particulier.
+                                    Grâce au partenariat avec la Mairie du 8ème arrondissement de Paris, nous avons décidé de remettre au goût du jour ces 
+                                    films d'hier et d'aujourd'hui pour le plus grand plaisir des amateurs de cinéma d'auteur.
+                                    C'est pourquoi nous vous proposons du 5 au 8 août 2021 des projections sur un écran gonflable de 10 mètres de hauteur 
+                                    généreusement prêté par le dispositif "passeurs d'images" en plein coeur du parc Monceau, à Paris.                                  
+                                    Vous pourrez donc nous y rejoindre seul, entre amis, en famille, pour des séances à la tombée de la nuit, 
+                                    confortablement installés sur un transat ou allongé dans l'herbe.</p>
+                            </div>
+
+                            <div class="main_about_content">
+                                <div class="row">
+                                    <div class="col-md-7">
+
+                                        <div class="main_accordion wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+
+
+                                            <div class="single_accordion">
+                                                <button class="accordion">L'association "Les Films de Plein Air"</button>
+                                                <div class="panel">
+                                                    <p class="text-justify">L'association "Les Films de Plein Air" est une association Loi 1901 à but non-lucratif, située à Paris dans le 15ème arrondissement.
+                                                        Créée en mai 2019 par Jennifer EDWARDS, amatrice passionnée de cinéma d'auteur, l'association a pour objet principal l'organisation 
+                                                        de festivals de cinéma d'auteur en plein air.                                                       
+                                                        Composée d'une vingtaine de membres adhérents, l'association a su développer son activité et promouvoir les films d'auteur d'hier et 
+                                                        d'aujourd'hui, auprès du grand public. Subventionnée par le Ministère de la Culture et la Mairie de Paris, l'association a le plaisir 
+                                                        de vous offrir son premier festival en accès libre et gratuit pour tous !</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="single_accordion">
+                                                <button class="accordion active">Projection de 12 films sur 4 jours</button>
+                                                <div class="panel show">
+                                                    <p class="text-justify">12 films seront projetés pour votre plus grand plaisir, du 5 au 8 août 2021, de 18h à minuit !
+                                                        4 jours de projection à raison de 3 films par jour, aux mêmes horaires : le premier film à 18h, 
+                                                        le deuxième film à 20h et le troisième à 22h, le Parc Monceau fermant exceptionnellement ses grilles 
+                                                        à MINUIT à l'occasion de cet événement unique !</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="single_accordion">
+                                                <button class="accordion">Réservation</button>
+                                                <div class="panel">
+                                                    <p class="text-justify">Afin de vous assurer les meilleures conditions de confort et de sécurité, les réservations aux 
+                                                        projections sont indispensables. L'accès au Parc et aux projections est entièrement libre et gratuit.                                                        
+                                                        Pour réserver vos places, merci de remplir le <a href="#formulaire" >formulaire</a> ci-après. Votre réservation sera automatiquement 
+                                                        prise en compte et vous recevrez votre "billet électronique" dans votre boîte mail, que vous présenterez à 
+                                                        l'entrée du Festival. <br> <strong>Attention :</strong> Toute entrée se verra refusée sans présentation du billet électronique.</p>
+                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-5"><br>
+                                        <div class="single_about about_progress">
+                                            <div class="skill wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+                                                <!-- progress start -->
+                                                <div class="progress">
+                                                    <div class="lead">Créée en mai 2021 par Jennifer EDWARDS</div>
+                                                    <div class="progress-bar wow fadeInLeft" data-progress="95%" style="width: 100%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
+                                                </div>
+                                                <!-- progress end -->
+                                                <!-- progress start -->
+                                                <div class="progress">
+                                                    <div class="lead">Composée d'une vingtaine de membres</div>
+                                                    <div class="progress-bar wow fadeInLeft" data-progress="90%" style="width: 100%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
+                                                </div>
+                                                <!-- progress end -->
+                                                <!-- progress start -->
+                                                <div class="progress">
+                                                    <div class="lead">Accès libre et gratuit pour tous !</div>
+                                                    <div class="progress-bar wow fadeInLeft" data-progress="85%" style="width: 100%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
+                                                </div>
+                                                <!-- progress end -->
+                                                <!-- progress start -->
+                                                <div class="progress">
+                                                    <div class="lead">12 films projetés du 5 au 8 août 2021</div>
+                                                    <div class="progress-bar wow fadeInLeft" data-progress="80%" style="width: 100%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
+                                                </div>
+                                                <!-- progress end -->
+                                                <!-- progress start -->
+                                                <div class="progress">
+                                                    <div class="lead">Réservations en ligne indispensables.</div>
+                                                    <div class="progress-bar wow fadeInLeft" data-progress="70%" style="width: 100%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
+                                                </div>
+                                                <!-- PROGRESS END -->
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+            <br>
+            <hr>
+    
+
+        </section><!-- End of About Section-->
+
+
+
+        <section id="news" class="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="main_news_area">
+                            <div class="head_title center m-y-3 wow fadeInUp"> <br>
+                                <h2>Informations</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="jumbotron single_news  wow fadeInLeft">
+                                        <div class="news_icon center">
+                                            <i class="fa fa-glass m-b-3"></i>
+                                        </div>
+                                        <div class="s_news_text text-sm-center text-xs-center">
+                                            <h4>Débit de boissons</h4>
+                                            <p class="text-justify" >Il s’agit des boissons sans alcool comme les eaux gazéifiées ou minérales, limonades, sirops, 
+                                                infusions, lait café, thés, chocolats, jus de fruits ou de légumes non fermentés (avec un taux d’alcool inférieur à 1.2 %).</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="jumbotron single_news wow fadeInUp">
+                                        <div class="news_icon center">
+                                            <i class="fa fa-sun-o m-b-3"></i>
+                                        </div>
+                                        <div class="s_news_text text-sm-center text-xs-center">
+                                            <h4>Météo</h4>
+                                            <p class="text-justify" >Trés bonne nouvelle la météo sera trés bonne pour nos projections du 5 au 8 aout, 
+                                                le soleil sera toujours présent et les températures clémentes. Prévoyer tout de même une petite laine
+                                            les fins de soirées sont un peu fraiches. </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="jumbotron single_news wow fadeInRight">
+                                        <div class="news_icon center">
+                                            <i class="fa fa-video-camera m-b-3"></i>
+                                        </div>
+                                        <div class="s_news_text text-sm-center  text-xs-center">
+                                            <h4>Projections</h4>
+                                            <p class="text-justify" >Nos projections se font sur un l'ecran géant dynamique haute luminosité.
+                                                Notre toile de projection a un dos noir opaque qui bloque la lumière. Ainsi, les sources lumineuses provenant de derrière l'écran n'auront aucun impact dérangeant sur la projection
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- End of news section -->
+
+        <section id="counter" class="counter">
+
+            <div class="main_counter_area m-y-3">
+                <div class="overlay p-y-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="main_counter_content center white-text wow fadeInUp">
+                                <div class="col-md-3">
+                                    <div class="single_counter p-y-2 m-t-1">
+                                        <i class="fa fa-users m-b-1"></i>
+                                        <h2 class="statistic-counter">1500</h2>
+                                        <p>Places par séance</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="single_counter p-y-2 m-t-1">
+                                        <i class="fa fa-thumbs-o-up m-b-1"></i>
+                                        <h2 class="statistic-counter">700</h2>
+                                        <p>Transats</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="single_counter p-y-2 m-t-1">
+                                        <i class="fa fa-car m-b-1"></i>
+                                        <h2 class="statistic-counter">8</h2>
+                                        <p>Parkings proches</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="single_counter p-y-2 m-t-1">
+                                        <i class="fa fa-glass m-b-1"></i>
+                                        <h2 class="statistic-counter">20</h2>
+                                        <p>Buvettes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of counter Section -->
+     
+        <section id="com" class="com">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="main_com_area">
+                            <div class="head_title center m-y-3 wow fadeInUp">
+                                <h2>Les news</h2>
+                            </div>
+                            <div class="main_com_content m-b-3">     
+                                <div class="single_com_area">
+                                    <div class="single_com">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="single_c_img center">
+                                                    <img class="img-circle" src="img/news1.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="single_c_text text-md-left text-xs-center">
+                                                    <h3>Important !</h3>
+                                                    <span class="text-uppercase m-b-1">Jennifer EDWARDS</span>
+                                                    <p>Rien de tel qu'un bon film en plein air pour terminer une journée ensoleillée. Sur la pelouse du parc Monceau, le programme du
+                                                         festival de cinéma de plein air va rythmer vos soirées à Paris.</p>
+
+                                                    <p>    Pensez à vérifier les conditions d'entrée de chaque événement qui vous intéresse : en raison de la crise sanitaire, il vous sera 
+                                                        demandé de réserver votre place à l'avance et de présenter un pass sanitaire. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single_com">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="single_c_img center">
+                                                    <img class="img-circle" src="img/news.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="single_c_text text-md-left text-xs-center">
+                                                    <h3>Autres info !</h3>
+                                                    <span class="text-uppercase m-b-1">Jennifer EDWARDS</span>
+                                                    <p>“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><hr>
+        </section><!-- End of com Section -->
+
+
+        <section id="agenda" class="agenda">
+            <div class="container">
+                <div class="row">
+                    <div class="main_agenda_area m-y-3">
+                        <div class="head_title center wow fadeInUp"> <br><br><br>
+                            <h2>Agenda</h2>
+                            <p>Retrouvez d'un seul coup d'oeil toute la programmation du Festival :</p>
+                        </div>
+
+                        <div class="main_agenda_content center wow fadeInUp">
+                            <div class="main_mix_menu m-y-2">
+                                <ul class="text-center">
+                                    <li class="filter" data-filter="all">Tous</li>
+                                    <li class="filter" data-filter=".cat1">5 août</li>
+                                    <li class="filter" data-filter=".cat2">6 août</li>
+                                    <li class="filter" data-filter=".cat3">7 août</li>
+                                    <li class="filter" data-filter=".cat4">8 août</li>
+                                </ul>
+                            </div>
+
+                            <div id="mixcontent" class="mixcontent  wow zoomIn">
+                                <div class="col-md-4 mix cat1">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/Les_Tontons_flingueurs.jpg" alt="affiche du film Les Tontons flingueurs" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/hyAxFfT4Oj8" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/Les_Tontons_flingueurs.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"> <br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">Les Tontons flingueurs</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Sur son lit de mort, le Mexicain fait promettre à son ami d'enfance, 
+                                                        Fernand Naudin, de veiller sur ses intérêts et sur sa fille Patricia. Fernand découvre alors qu'il se trouve à la 
+                                                        tête d'affaires louches dont les anciens employés du Mexicain, tels les Volfoni, aimeraient bien s'emparer. Cependant, 
+                                                        flanqué d'un curieux notaire et d'un garde du corps à la gâchette infaillible, Fernand impose d'emblée sa loi.</p>
+                                                </div>
+                                            </div><br>     
+                                            <p>Le 5 août à 18h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        
+                                <div class="col-md-4 mix cat1">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/La_Guerre_des_boutons.jpg" alt="affiche du film La Guerre des boutons" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/SrAgA-wEJh8" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/La_Guerre_des_boutons.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"> <br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">La Guerre des boutons</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Une bande de garçons, menée par l'intrépide Lebrac, est en guerre contre les 
+                                                        enfants du village voisin, leurs ennemis jurés. Une guerre sans merci, qui dure depuis des générations. On se bat pour l'honneur 
+                                                        et la fidélité et, pour gagner, tous les moyens sont bons.</p>
+                                                </div>
+                                            </div><br>
+                                            <p>Le 5 août à 20h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                      
+                                <div class="col-md-4 mix cat1">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/Jeux_interdits.jpg" alt="affiche du film Jeux interdits" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/cD26LdRT94E" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/Jeux_interdits.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"> <br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">Jeux interdits</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Au cours de l'Exode de 1940 en France, Paulette, cinq ans, a perdu ses parents. 
+                                                        A l'abandon, elle erre sans savoir où elle va jusqu'au jour où elle rencontre Michel, un petit garçon de dix ans qui la conduit chez lui.</p>
+                                                </div>
+                                            </div><br> 
+                                            <p>Le 5 août à 22h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                      
+                                <div class="col-md-4 mix cat2">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/Le_Parrain.jpg" alt="affiche du film Le Parrain" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/tP2dRBwhPpo" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/Le_Parrain.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"> <br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">Le Parrain</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> En 1945, à New York, les Corleone sont une des 5 familles de la mafia. 
+                                                        Don Vito Corleone, `parrain' de cette famille, marie sa fille à un bookmaker. Sollozzo, `parrain' de la famille Tattaglia, 
+                                                        propose à Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant à lui
+                                                         favorable. Afin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en réchappe.</p>
+                                                </div>
+                                            </div><br>  
+                                            <p>Le 6 août à 18h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                   
+                                <div class="col-md-4 mix cat2">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/Vol_au_dessus_d_un_nid_de_coucou.jpg" alt="affiche du film Vol au-dessus d'un nid de coucou" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/LQEYisXqdg8" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/Vol_au_dessus_d_un_nid_de_coucou.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"> <br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">Vol au-dessus d'un nid de coucou</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Pour échapper à la prison, le détenu du droit commun Randall P. McMurphy se fait
+                                                         interner en simulant la folie. Dès son arrivée à l'hôpital psychiatrique, il assiste aux traitements thérapeutiques dispensés
+                                                          par miss Ratched, l'autoritaire et tyrannique infirmière en chef dont il cherche à bouleverser les méthodes.</p>
+                                                </div>
+                                            </div><br>  
+                                            <p>Le 6 août à 20h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                        
+             
+                                <div class="col-md-4 mix cat2">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/Taxi_Driver.jpg" alt="affiche du film Taxi Driver" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/u9M02nrQIF0" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/Taxi_Driver.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"> <br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">Taxi Driver</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Travis Bickle, un jeune homme du Midwest et ancien marine, est chauffeur de taxi
+                                                         de nuit à New York. Insomniaque et solitaire, il rencontre Betsy, une assistante du sénateur Charles Palantine, candidat à la
+                                                          présidentielle, mais elle le repousse après qu'il l'a emmenée voir un film pornographique. Confronté à la violence et à la 
+                                                          perversion de la nuit new-yorkaise, il achète des armes au marché noir et s'entraîne à les manier.</p>
+                                                </div>
+                                            </div><br>  
+                                            <p>Le 6 août à 22h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                            
+                 
+                                <div class="col-md-4 mix cat3">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/Midnight_Express.jpg" alt="affiche du film Midnight Express" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/8agWcekbWaU" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/Midnight_Express.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"><br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">Midnight Express</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Billy Hayes, touriste en Turquie, est arrêté à la frontière avec deux kilogrammes
+                                                         de drogue sur lui. Condamné à quelques jours de prison, le jeune homme découvre que sa peine a été muée en prison à perpétuité
+                                                          par le gouvernement souhaitant faire de son cas un exemple. Désemparé, Billy multiplie les procès et parcourt les prisons les plus sordides.</p>
+                                                </div>
+                                            </div><br> 
+                                            <p>Le 7 août à 18h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                     
+                                <div class="col-md-4 mix cat3">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/L_Evadé_d_Alcatraz.jpg" alt="affiche du film L'Evadé d'Alcatraz" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/U7emePJzLNU" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/L_Evadé_d_Alcatraz.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"> <br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">L'Evadé d'Alcatraz</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Frank Morris s'est évadé de plusieurs prisons. En 1960, il est écroué et transféré au 
+                                                        célèbre pénitencier d'Alcatraz construit sur un piton rocheux face à la côte. Il réussira, une nouvelle fois avec deux complices,
+                                                         à s'évader de la prison la plus surveillée des Etats Unis.</p>
+                                                </div>
+                                            </div><br>  
+                                            <p>Le 7 août à 20h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                       
+                                <div class="col-md-4 mix cat3">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/Les_Hommes_du_Président.jpg" alt="affiche du film Les Hommes du Président" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/xiBrLx3kKfQ" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/Les_Hommes_du_Président.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"> <br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">Les Hommes du Président</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> En 1972, cinq hommes sont arrêtés pour avoir pénétré par infraction dans
+                                                         l'immeuble du Watergate où se situent les bureaux du parti Démocrate. Alors que l'affaire est présentée comme un simple fait
+                                                          divers, deux journalistes du Washington Post, Carl Bernstein et Bob Woodward décident de pousser l'enquête qui les mènera 
+                                                          vers les plus hautes sphères du gouvernement.</p>
+                                                </div>
+                                            </div><br>  
+                                            <p>Le 7 août à 22h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+               
+                                <div class="col-md-4 mix cat4">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/Des_hommes_d_honneur.jpg" alt="affiche du film Des hommes d'honneur" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/N8xC1s4K82o" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/Des_hommes_d_honneur.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"><br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">Des hommes d'honneur</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Louden et Dawson, deux jeunes Marines, abattent au cours d'une action 
+                                                        disciplinaire nommée Code Rouge un de leurs camarades, Santiago. Le lieutenant Daniel Kaffee est désigné pour assurer
+                                                         leur défense lors du procès. Alors que Kaffee entame une défense de pure routine, sa jeune et pugnace adjointe,
+                                                          le lieutenant Jo-Anne Galoway, se rebiffe et l'oblige à instruire le dossier.</p>
+                                                </div>
+                                            </div><br>  
+                                            <p>Le 8 août à 18h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                                
+                      
+                                <div class="col-md-4 mix cat4">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/Rencontres_du_3ème_type.jpg" alt="affiche du film Rencontres du 3ème type" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/H6fGTAu_LhM" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/Rencontres_du_3ème_type.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"> <br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">Rencontres du 3ème type</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Pendant qu'une coupure d'électricité paralyse la ville, Roy Neary, 
+                                                        un réparateur de câbles de l'Indiana, voit une soucoupe volante passer au-dessus de sa voiture. Barry Guiler, un petit
+                                                         garçon de quatre ans, est, quant à lui, réveillé par le bruit de ses jouets qui se mettent en marche. Dans le monde entier,
+                                                          d'autres personnes assistent avec étonnement à des d'événements aussi spectaculaires qu'inexplicables.</p>
+                                                </div>
+                                            </div><br>  
+                                            <p>Le 8 août à 20h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                         
+                                <div class="col-md-4 mix cat4">
+                                    <div class="single_mixi_agenda center">
+                                        <div class="single_agenda_img">
+                                            <img src="img/L_Exorciste.jpg" alt="affiche du film L'Exorciste" />
+                                            <div class="mixi_agenda_overlay">
+                                                <a href="https://www.youtube.com/embed/uy_BsYq_foQ" target="_blank"><i class="fa fa-youtube"></i></a>
+                                                <a href="img/L_Exorciste.jpg" class="gallery-img"><i class="fa fa-picture-o"></i></a>                                                
+                                            </div>
+                                        </div>
+                                        <div class="single_agenda_text"><br>
+                                            <div class="single_accordion">
+                                                <button class="accordion listfilm">L'Exorciste</button>
+                                                <div class="panel">
+                                                    <p class="text-justify"><strong>Synopsis :</strong> Regan, âgée de 12 ans, souffre d'inquiétants troubles du comportement. 
+                                                        Après de nombreux examens médicaux, sa mère Chris MacNeil sollicite l'aide d'un jeune prête psychiatre, le Père Karras
+                                                         qui lui apprend que la jeune fille est possédée par le diable. Avec l'aide de son confrère le père Merrin, il va se
+                                                          lancer dans des séances d'exorcisme d'une incroyable intensité...</p>
+                                                </div>
+                                            </div><br>  
+                                            <p>Le 8 août à 22h00</p>
+                                            <a href="#formulaire" class="btn btn-primary btn-lg">Réservation</a>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <!-- End of col-md-4 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  <!-- End of agenda Section -->
+
+        <section id="formulaire" class="formulaire"><br>	 
+
+			
+            <form class="container"> <br><br>
+                <h3>Complétez le formulaire et cliquez sur "Envoyer"</h3>
+                <h6>Vous recevrez votre "billet électronique" dans votre boîte mail, que vous présenterez à l'entrée du Festival. </h6>
+                <div class="form-group">
+                    <label for="admail">Votre adresse email :</label>
+                    <input type="email" class="form-control" id="admail" placeholder="nom@exemple.com">
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-12">
+                      <label for="fornom">Nom :</label>
+                      <input id="fornom" type="text" class="form-control" placeholder="EDWARDS">
+                    </div>
+                    <div class="col-sm-6 col-12">
+                      <label for="forprenom">Prénom :</label>
+                      <input type="text" id="forprenom" class="form-control" placeholder="Jennifer">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-12 form-group">
+                        <label for="exampleFormControlSelectpers">Nombre de personnes : </label>
+                        <select id="exampleFormControlSelectpers" class="form-control nbpers">
+                            <option selected="selected">1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-6 col-12 form-group">
+                        <label for="exampleFormControlSelectfilm">Film :</label>
+                        <select id="exampleFormControlSelectfilm" class="form-control nbfilm">
+                              <option selected="selected">Les Tontons flingueurs - Le 5 août à 18h00</option>
+                              <option>La Guerre des boutons - Le 5 août à 20h00</option>
+                              <option>Jeux interdits - Le 5 août à 22h00</option>
+
+                              <option>Le Parrain - Le 6 août à 18h00</option>
+                              <option>Vol au-dessus d'un nid de coucou - Le 6 août à 20h00</option>
+                              <option>Taxi Driver - Le 6 août à 22h00</option>
+                              
+                              <option>Midnight Express - Le 7 août à 18h00</option>
+                              <option>L'Evadé d'Alcatraz - Le 7 août à 20h00</option>
+                              <option>Les Hommes du Président - Le 7 août à 22h00</option>
+
+                              <option>Des hommes d'honneur - Le 8 août à 18h00</option>
+                              <option>Rencontres du 3ème type - Le 8 août à 20h00</option>
+                              <option>L'Exorciste - Le 8 août à 22h00</option>
+                        </select>
+                      </div>
+                </div>
+                  <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+                 </div>
+            </form>	
+
+        </section><!-- End of Formulaire section -->
+
+        <section id="acces" class="acces">
+            <div class="container"> <br><br>
+            <h2>Accéder au Festival</h2>
+            <div class="row">
+                    <div class="col-lg-12 text-align center">
+                            <h3>Le Parc Monceau</h3>
+                            <p>Le Festival se déroule dans un cadre verdoyant et aéré puisqu'il a lieu au Parc Monceau :<br/>
+                            <strong>35 Boulevard de Courcelles, 75008 Paris, France</strong><br/>
+                          
+                                    Transports en commun : <br>
+                                    - Métro Ligne 2 : Station Monceau <br>
+                                    - Bus 30, 84 : Arrêt Ruysdael, Parc Monceau <br>
+                            
+                       
+                            Entrée libre pour tous.<br/>
+                            Horaires d'ouverture :<br/>
+                            En été : tous les jours, 7h-22h. Septembre : tous les jours, 7h-21h. En hiver : tous les jours, 7h-20h.<br/>
+                            Nocturne : en été, le parc Monceau est ouvert jusqu'à 22 heures.</p>
+                    </div>
+            </div>          
+
+            <div class="row">
+                    <div class="col-lg-12 text-align center">
+                            <h3>Plan</h3>
+                            <p>Trouvez facilement votre chemin pour nous rejoindre :<br/>
+                            <strong>35 Boulevard de Courcelles, 75008 Paris, France</strong><br/></p><br>
+                            <iframe class="col-lg-12" 
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5247.705657114073!2d2.3076659501607417!3d48.88008207211634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1574784992951!5m2!1sfr!2sfr"
+                                     height="400" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+            </div>
+            </div>
+    </section><br>
+
+
+        <section id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="main_footer_area white-text p-b-3">
+
+                        <div class="col-md-4">
+                            <div class="single_f_widget m-t-3 wow fadeInUp">
+                                <h4 class="text-lowercase">cgu</h4>
+                                <div class="single_f_widget_text f_tags">
+                                    <a href="#">Mentions légales</a>
+                                    <a href="#">Conditions Générales</a>
+                                    <a href="#">Politique de confidentialité</a>
+                                    <a href="#">Autorisations</a>
+                                    <a href="#">Info Mairie</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single_f_widget p-t-3 wow fadeInUp">
+                                <img src="img/logo.png" alt="" />
+                                <div class="single_f_widget_text">
+                                    <p>ASSOC LES FILMS DE PLEIN AIR <br>
+                                        35 BD DE COURCELLES <br>
+                                        75008 PARIS <br>
+                                        E mail : contact@festiair.fr <br>
+                                        Tél. Mobile : 06 25 32 XX XX</p>
+                                    <div class="socail_f_widget">
+                                        <a href="#!" ><i class="fa fa-facebook"></i></a>
+                                        <a href="#!" ><i class="fa fa-google-plus"></i></a>
+                                        <a href="#!" ><i class="fa fa-twitter"></i></a>
+                                        <a href="#!" ><i class="fa fa-vimeo"></i></a>
+                                        <a href="#!" ><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single_f_widget m-t-3 wow fadeInUp">
+                                <h4 class="text-lowercase">Tags</h4>
+                                <div class="single_f_widget_text f_tags">
+                                    <a href="#home">Accueil</a>
+                                    <a href="#about">A propos</a>
+                                    <a href="#news">News</a>
+                                    <a href="#agenda">Agenda</a>
+                                    <a href="#formulaire">Réservation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_coppyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="copyright_text m-t-2 text-xs-center">
+                                <p class="wow zoomIn" data-wow-duration="1s">Fait avec <i class="fa fa-heart"></i> par <a target="_blank" href="https://vmkdev.com"> VMKDEV</a> © Copyright 2021 : Association Les Films de Plein Air</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- SCRIPTS -->
+
+        <!-- JQuery -->
+        <script src="js/jquery-2.2.3.min.js"></script>
+
+        <!-- Bootstrap tooltips -->
+        <script src="js/tether.min.js"></script>
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- MDB core JavaScript -->
+        <script src="js/mdb.min.js"></script>
+
+        <!-- Wow js -->
+        <script src="js/wow.min.js"></script>
+
+        <!-- Mixitup js -->
+        <script src="js/jquery.mixitup.min.js"></script>
+
+        <!-- Magnific-popup js -->
+        <script src="js/jquery.magnific-popup.js"></script>
+
+        <!-- accordion js -->
+        <script src="js/accordion.js"></script>
+
+        <!-- MDB core JavaScript -->
+        <script src="js/materialize.js"></script>
+
+        <script>
+            $(".button-collapse").sideNav();
+        </script>
+
+        <!-- wow js active -->
+        <script>
+            new WOW().init();
+        </script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            $(function()
+            {
+            $("form").submit(function(e) 
+                {
+                e.preventDefault();
+                  var $form = $(this);
+                $.post($form.attr("action"), $form.serialize())
+                  .done(function(data) 
+                      {
+                    $("#html").html(data);
+                    $("#formulaire").modal("hide"); 
+                      })
+                  .fail(function() 
+                      {
+                        alert("Site de Démo, le formulaire n'est pas fontionnel");
+                    });
+                  });
+            });
+        </script>
+
+
+    </body>
+
+</html>
